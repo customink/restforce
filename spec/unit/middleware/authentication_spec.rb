@@ -76,17 +76,6 @@ describe Restforce::Middleware::Authentication do
         }
         its(:adapter) { should eq Faraday::Adapter::NetHttp }
       end
-
-      context 'with specified adapter' do
-        before do
-          options[:adapter] = :typhoeus
-        end
-
-        its(:handlers) {
-          should include FaradayMiddleware::ParseJson
-        }
-        its(:adapter) { should eq Faraday::Adapter::Typhoeus }
-      end
     end
 
     it "should have SSL config set" do
