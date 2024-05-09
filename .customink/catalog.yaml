@@ -1,6 +1,6 @@
 name: restforce
 
-owner: tailor_made # team definitions at https://app.opslevel.com/teams
+owner: premium-blend # team definitions at https://app.opslevel.com/teams
 
 purpose: # multiple choice
   # - do_not_track # demo testing personal - will not be tracked in catalog
@@ -23,6 +23,6 @@ deployment_type: # multiple choice
 tier: tier_na # this repo does not have a tier. typically libraries
 
 properties:
-  public_facing: false
+  public_facing: yes
   pci: false
   pii: false
