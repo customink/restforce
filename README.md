@@ -3,6 +3,8 @@
 [![CircleCI](https://circleci.com/gh/restforce/restforce.svg?style=svg)](https://circleci.com/gh/restforce/restforce)
 ![Downloads](https://img.shields.io/gem/dt/restforce.svg)
 
+## NOTE: This repo is forked as a temporary fix to allow using inkforce/restforce without having to downgrade hashie. See [this note](https://github.com/customink/rails-backend/blob/457df6d3255c13ee5543ade78fe80c5ac3a6ec58/Gemfile#L165-L167) for more.
+
 Restforce is a ruby gem for the [Salesforce REST api](http://www.salesforce.com/us/developer/docs/api_rest/index.htm).
 
 Features include:
