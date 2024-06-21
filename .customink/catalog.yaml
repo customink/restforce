@@ -23,6 +23,6 @@ deployment_type: # multiple choice
 tier: tier_na # this repo does not have a tier. typically libraries
 
 properties:
-  public_facing: yes
+  public_facing: false
   pci: false
   pii: false
